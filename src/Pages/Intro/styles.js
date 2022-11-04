@@ -46,39 +46,53 @@ export const expand = keyframes`
 export const Title = styled.h1`
   font-size: 50rem;
   color: var(--color-yellow);
+  margin-top: 10rem;
   margin-bottom: 20px;
   transform: translateY(100px);
-
   animation: ${TextFade} 1s 0.5s forwards ease-in-out, 
   ${textSlide} 1s 0.5s forwards ease-in-out;
   opacity: 0;
 
-  @media(max-width: 887px){
-    font-size: 40rem;
+  @media(max-width: 844px){
+    font-size: 35rem;
+    margin-top: 45px;
+    position: relative;
   }  
 
   @media(max-width: 400px){
     font-size: 30rem;
+    margin-top: 50px;
+    position: relative;
+  }  
+
+  @media(max-width: 375px){
+    font-size: 20rem;
+    margin-top: 55px;
+    position: relative;
   }  
 `; 
 
 export const Parag = styled.p`
   font-size: 28rem;
   line-height: 28px;
+  margin-right: 40rem;
   text-align: justify;
   transform: translateY(300px);
   animation: slideUp .8s forwards ease-in-out .8s;
   height: auto;
   overflow: hidden;
 
-  @media(max-width: 887px){
-    font-size: 25rem;
+  @media(max-width: 844px){
+    font-size: 20rem;
   }  
 
   @media(max-width: 400px){
     font-size: 20rem;
   }  
 
+  @media(max-width: 375px){
+    font-size: 15rem;
+  }  
 `;
 
 export const Scroll = styled.div`
@@ -127,24 +141,25 @@ export const IntroBox = styled.div`
   transition: all .8s ease;
 
   @media(max-width: 887px){
-    height: 70vh;
     padding-top: 15px;
     font-size: 10px;
+    display: block;
   }  
 
   @media(max-width: 525px){
-    height: 80vh;
+    font-size: 10px;
+    display: block;
   }
 
   @media(max-width: 400px){
-    height: 80vh;
     padding-top: 15px;
     font-size: 10px;
+    display: inline-table;
   }
 `;
 
 export const BoxContent = styled.div`
-  width: 50%;
+  width: 100%;
 
   @media(max-width: 887px){
     margin-top: -5px;
@@ -184,7 +199,7 @@ export const BoxImg = styled.div`
 
   @media(max-width: 400px){
     height: auto;
-    min-height: 80vw;
+    min-height: 60vw;
   }
 `;
 
@@ -194,13 +209,17 @@ export const IntroImg = styled.img`
   animation: slideIn 1.5s ease-in-out forwards;
 
   @media(max-width: 887px){
-    width: 300px;
-    height: 400px; 
+    width: 200px;
+    height: 200px; 
+    position: relative;
+    margin: 20rem 40rem;
   }  
 
   @media(max-width: 400px){
-    width: 100px;
-    height: 150px; 
+    width: 200px;
+    height: 200px; 
+    position: relative;
+    margin: 20rem 40rem;
   }  
 `;
 

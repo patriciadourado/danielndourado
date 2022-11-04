@@ -18,7 +18,7 @@ function Intro(){
                             atualizadas a respeito das últimas novidades e descobertas da farmácia.
                         </Parag>
                         <Scroll>
-                        <Link to='about' smooth={true}><Button>Mais sobre mim</Button></Link>
+                            <Link to='about' smooth={true}><Button>Mais sobre mim</Button></Link>
                         </Scroll>
                     </BoxEdge>
                 </BoxContent>
