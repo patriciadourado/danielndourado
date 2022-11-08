@@ -61,7 +61,7 @@ export const Title = styled.h1`
 
   @media(max-width: 400px){
     font-size: 30rem;
-    margin-top: 50px;
+    margin-top: 30px;
     position: relative;
   }  
 
@@ -118,12 +118,12 @@ export const Button = styled.button`
   animation: slideUp .8s ease-in-out  forwards 1s;
 
   @media(max-width: 887px){
-    margin-top: 5px;
+    margin-top: 15px;
     font-size: 10px;
   }  
 
   @media(max-width: 400px){
-    margin-top: 5px;
+    margin-top: 15px;
     font-size: 10px;
   }
 `;
@@ -143,7 +143,7 @@ export const IntroBox = styled.div`
   @media(max-width: 887px){
     padding-top: 15px;
     font-size: 10px;
-    display: block;
+    display: flex;
   }  
 
   @media(max-width: 525px){
@@ -154,21 +154,7 @@ export const IntroBox = styled.div`
   @media(max-width: 400px){
     padding-top: 15px;
     font-size: 10px;
-    display: inline-table;
-  }
-`;
-
-export const BoxContent = styled.div`
-  width: 100%;
-
-  @media(max-width: 887px){
-    margin-top: -5px;
-    font-size: 10px;
-  }  
-
-  @media(max-width: 400px){
-    margin-top: 5px;
-    font-size: 10px;
+    //display: inline-table;
   }
 `;
 
@@ -179,6 +165,12 @@ export const BoxEdge = styled.div`
   @media(max-width: 887px){
     margin-top: -5px;
     font-size: 10px;
+  }  
+
+  @media(max-width: 525px){
+    display: block;
+    align-items: center;
+    justify-content: center ;
   }  
 
   @media(max-width: 400px){
@@ -193,12 +185,15 @@ export const BoxImg = styled.div`
   overflow: hidden;
 
   @media(max-width: 887px){
-    height: auto;
-    min-height: 80vw;
+    //width: 100%;
+    margin: 30px;
+    //height: 100%;
+    //min-height: 80vw;
   }  
 
   @media(max-width: 400px){
     height: auto;
+    margin: 25px 50px -10px;
     min-height: 60vw;
   }
 `;
@@ -207,17 +202,28 @@ export const IntroImg = styled.img`
   width: 500px;
   height: 700px;
   animation: slideIn 1.5s ease-in-out forwards;
+	background: url("../images/logo.png") no-repeat center;
+	background-size: 92px 15px;
+  
+  object-fit: contain;
 
-  @media(max-width: 887px){
-    width: 200px;
-    height: 200px; 
+  @media(max-width: 505px){
+    width: auto;
+    padding-top: 5rem;
+		padding-left: 30px;
+		padding-right: 30px;
+  }
+  
+  @media(max-width: 980px){
+    width: 250px;
+    height: 350px; 
     position: relative;
     margin: 20rem 40rem;
   }  
 
   @media(max-width: 400px){
-    width: 200px;
-    height: 200px; 
+    width: 100%;
+    height: 100%;
     position: relative;
     margin: 20rem 40rem;
   }  

@@ -7,9 +7,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faMapMarker, faPaperPlane, faPhone } from '@fortawesome/free-solid-svg-icons';
 import {
   faInstagram,
-  faFacebook,
+  faDiscord,
   faWhatsapp,
-  faTwitter,
+  faTwitch,
   faLinkedinIn
 } from '@fortawesome/free-brands-svg-icons';
 
@@ -118,6 +118,15 @@ function Contact(){
           </ContactInfo>
           <FooterRow>
             <FooterSocial>
+            <FooterItem>
+                <Link
+                  href="https://www.discord.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon className='fab fa-discord' icon={faDiscord}/>
+                </Link>
+              </FooterItem>
               <FooterItem>
                 <Link
                   href="https://whats.link"
@@ -147,20 +156,11 @@ function Contact(){
               </FooterItem>
               <FooterItem>
                 <Link
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon className='fab fa-facebook' icon={faFacebook}/>
-                </Link>
-              </FooterItem>
-              <FooterItem>
-                <Link
                   href="https://twitter.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FontAwesomeIcon className='fab fa-twitter' icon={faTwitter}/>
+                  <FontAwesomeIcon className='fab fa-twitch' icon={faTwitch}/>
                 </Link>
               </FooterItem>
             </FooterSocial>
