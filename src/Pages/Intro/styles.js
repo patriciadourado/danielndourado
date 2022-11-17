@@ -84,6 +84,7 @@ export const Parag = styled.p`
 
   @media(max-width: 844px){
     font-size: 20rem;
+    padding-top:10rem;
   }  
 
   @media(max-width: 400px){
@@ -118,12 +119,12 @@ export const Button = styled.button`
   animation: slideUp .8s ease-in-out  forwards 1s;
 
   @media(max-width: 887px){
-    margin-top: 15px;
+    margin-top: 30px;
     font-size: 10px;
   }  
 
   @media(max-width: 400px){
-    margin-top: 15px;
+    margin-top: 30px;
     font-size: 10px;
   }
 `;
@@ -181,12 +182,12 @@ export const BoxEdge = styled.div`
 
 export const BoxImg = styled.div`
   margin: 50px;
-  width: 50%;
+  //width: 50%;
   overflow: hidden;
 
   @media(max-width: 887px){
     //width: 100%;
-    margin: 30px;
+    //margin: 10px;
     //height: 100%;
     //min-height: 80vw;
   }  
@@ -215,17 +216,17 @@ export const IntroImg = styled.img`
   }
   
   @media(max-width: 980px){
-    width: 250px;
-    height: 350px; 
+    width: 100%;
+    height: auto; 
     position: relative;
-    margin: 20rem 40rem;
+    //margin: auto 40rem;
   }  
 
   @media(max-width: 400px){
     width: 100%;
     height: 100%;
     position: relative;
-    margin: 20rem 40rem;
+    //margin: 20rem 40rem;
   }  
 `;
 
