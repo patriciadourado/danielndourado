@@ -26,7 +26,7 @@ export const AboutIntro = styled.div`
   text-align: center;
   width: 100%;
   margin-top: 20rem;
-  
+  margin-bottom: 10px;
   @media(max-width: 887px){
     margin-top: 13px;
   }

@@ -5,6 +5,7 @@ import Reset from "./styles/Reset";
 
 import About from './Pages/About';
 import Contact from './Pages/Contact';
+import Blog from './Pages/Blog';
 import Intro from './Pages/Intro';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,7 @@ root.render(
     <Reset />
     <Intro />
     <About />
+    <Blog />
     <Contact />
   </React.StrictMode>
 );
