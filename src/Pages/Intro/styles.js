@@ -127,6 +127,13 @@ export const Button = styled.button`
     margin-top: 30px;
     font-size: 10px;
   }
+
+  @media screen and (min-width: 375), 
+    screen and (min-height: 667px) {
+      margin-top: 20rem;
+      margin-bottom: 20rem;
+  }
+
 `;
 
 export const IntroBox = styled.div`
@@ -136,7 +143,7 @@ export const IntroBox = styled.div`
   align-items: center;
   color: #fff;
   animation: expand .8s ease forwards;
-  background-color: var(--secondary-color);
+  background-color: var(--color-secondary);
   position: relative;
   font-family: 'Libre Baskerville', serif;
   transition: all .8s ease;
@@ -156,6 +163,12 @@ export const IntroBox = styled.div`
     padding-top: 15px;
     font-size: 10px;
     //display: inline-table;
+  }
+
+  @media screen and (min-width: 375), 
+    screen and (min-height: 667px) {
+      height: 120vh;
+      margin-bottom: 20rem;
   }
 `;
 

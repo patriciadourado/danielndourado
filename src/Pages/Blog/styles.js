@@ -74,6 +74,13 @@ export const BlogTitle = styled.h1`
     padding-top: 5rem;
     padding-bottom: 50rem ;
   }
+
+    
+  @media screen and (min-width: 375), 
+    screen and (min-height: 667px) {
+      margin-top: 0;
+      margin-bottom: 20rem;
+  }
 `;
 
 export const BlogWrapper = styled.section `
@@ -111,15 +118,6 @@ export const BlogWrapper = styled.section `
     height: 105vh;
   }
 
-  @media(min-width: 1260px){
-    margin-top: 10px;
-    display: block;
-    background-repeat: no-repeat;
-    background-size: 85%;
-    width: auto;
-    height: 100vh;
-  }
-  
   @media(max-width: 825px){
     display: block;
     background-size: 100%;
@@ -187,8 +185,39 @@ export const BlogWrapper = styled.section `
     width: auto;
     height: 55vh;
   }
-`;
 
+  /*@media screen and (min-width: 750px), 
+    screen and (min-height: 1134px) {
+      display: block;
+      background-size: 56%;
+      margin-left: 5px;
+      background-repeat: no-repeat;
+      width: auto;
+      height: 70vh;
+  }*/
+
+  @media screen and (min-width: 375px), 
+    screen and (min-height: 667px) {
+      display: block;
+      background-size: 86%;
+      margin-left: 5px;
+      background-repeat: no-repeat;
+      width: auto;
+      height: 50vh;
+  }
+  
+  @media screen and (max-width: 374px), 
+    screen and (max-height: 666px) {
+      display: block;
+      background-size: 86%;
+      margin-left: 5px;
+      background-repeat: no-repeat;
+      width: auto;
+      height: 100vh;
+  }
+
+`;
+        
 export const BlogBox = styled.div`
   display: block;
   justify-content: center;

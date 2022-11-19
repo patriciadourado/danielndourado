@@ -4,7 +4,7 @@ import { BoxEdge, BoxImg, Button, IntroBox, IntroImg, Parag, Scroll, Shade, Titl
 
 import { Link } from 'react-scroll';
 
-import aboutImg from '../../assets/about.JPG';
+import aboutImg from '../../assets/Internship.jpeg';
 
 function Intro(){
     return(

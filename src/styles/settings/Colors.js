@@ -29,6 +29,7 @@ const Colors = createGlobalStyle`
   --color-orange: #ff8c2a;
   --color-red: #f91c24;
   --color-primary: #285639;
+  --color-secondary: #183139;
   --color-text: rgb(16, 16, 16);
   --color-text-light: #4f5969;
   --color-heading: #345b43;
