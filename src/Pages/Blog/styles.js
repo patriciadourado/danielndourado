@@ -207,13 +207,13 @@ export const BlogWrapper = styled.section `
   }
   
   @media screen and (max-width: 374px), 
-    screen and (max-height: 666px) {
+    screen and (max-height: 590px) {
       display: block;
       background-size: 86%;
       margin-left: 5px;
       background-repeat: no-repeat;
       width: auto;
-      height: 100vh;
+      height: 60vh;
   }
 
 `;

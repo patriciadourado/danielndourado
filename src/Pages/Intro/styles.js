@@ -165,10 +165,16 @@ export const IntroBox = styled.div`
     //display: inline-table;
   }
 
-  @media screen and (min-width: 375), 
+  @media screen and (min-width: 375px), 
     screen and (min-height: 667px) {
-      height: 120vh;
       margin-bottom: 20rem;
+      height: 120vh;
+  }
+
+  @media screen and (max-width: 375px), 
+    screen and (max-height: 590px) {
+      margin-bottom: 20rem;
+      height: 140vh;
   }
 `;
 
