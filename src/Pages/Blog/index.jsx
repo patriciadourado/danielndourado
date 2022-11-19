@@ -1,17 +1,17 @@
 import React from 'react';
 import {
-    BlogWrapper,
-    BlogBox,
-    BlogButton
+  BlogTitle,
+  BlogWrapper
 } from './styles';
 
 function Blog() {
   return (
-    <BlogWrapper id='blogLink'>
-        <BlogBox>
-            <BlogButton href="https://danielndourado.netlify.com" target="_blank" rel="noopener noreferrer" title="Informe-se sobre saúde">Visite meu blog</BlogButton>
-        </BlogBox>
-    </BlogWrapper>
+    <>
+    <BlogTitle>Minha Coluna</BlogTitle>
+    <a  href="https://danielndourado.netlify.com" target="_blank" rel="noopener noreferrer" title="Visite meu blog, Informe-se sobre saúde">
+      <BlogWrapper id='blogLink'/>
+    </a>
+    </>
   );
 }
 
