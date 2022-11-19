@@ -87,13 +87,14 @@ export const BlogWrapper = styled.section `
   margin: 0 auto;
   padding-top: 10vh;
   background-image: url(${blogImg}) ;
+  background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
   object-fit: cover;
   //opacity: 0.85;
-
+  
   &:hover{
-    background-color: var(--color-primary);
+    background-color: var(--color-white);
     opacity: 0.4;
 
     & > ${BlogButton} {
@@ -101,28 +102,91 @@ export const BlogWrapper = styled.section `
     }
   }
 
-  @media(min-width: 1060px){
+  @media(min-width: 1260px){
     margin-top: 10px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    width: auto;
+    height: 105vh;
+  }
+
+  @media(min-width: 1260px){
+    margin-top: 10px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 85%;
+    width: auto;
+    height: 100vh;
   }
   
-  @media(max-width: 880px){
+  @media(max-width: 825px){
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-image: url(${blogmImg});
-    width: 80%;
+    width: auto;
+    height: 105vh;
+  }
+
+  @media(max-width: 785px){
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(${blogmImg});
+    width: auto;
+    height: 102vh;
+  }
+
+  @media(max-width: 730px){
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(${blogmImg});
+    width: auto;
+    height: 95vh;
   }
 
   @media(max-width: 670px){
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-image: url(${blogmImg});
-    width: 70%;
+    width: auto;
+    height: 90vh;
   }
 
-  @media(max-width: 400px){
+  @media(max-width: 500px){
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 70vh;
+  }
+
+  @media(max-width: 475px){
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 62vh;
+  }
+
+  @media(max-width: 467px){
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+  }
+
+  @media(max-width: 425px){
     display: block;
     background-size: 100%;
     background-repeat: no-repeat;
     width: auto;
     height: 55vh;
   }
-
 `;
 
 export const BlogBox = styled.div`
