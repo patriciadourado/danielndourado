@@ -9,7 +9,7 @@ import aboutImg from '../../assets/Internship.jpeg';
 function Intro(){
     return(
         <>
-            <IntroBox>
+            <IntroBox id='home'>
                 <BoxImg>
                     <IntroImg src={aboutImg}  alt=""/>
                 </BoxImg>

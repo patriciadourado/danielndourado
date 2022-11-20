@@ -145,14 +145,16 @@ export const BlogWrapper = styled.section `
     height: 95vh;
   }
 
-  @media(max-width: 670px){
-    display: block;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-image: url(${blogmImg});
-    width: auto;
-    height: 90vh;
+  @media(max-height: 667px){
+      display: block;
+      background-size: 86%;
+      margin-left: 5px;
+      background-repeat: no-repeat;
+      width: auto;
+      height: 60vh;
   }
+
+  
 
   @media(max-width: 500px){
     display: block;
@@ -203,7 +205,7 @@ export const BlogWrapper = styled.section `
       margin-left: 5px;
       background-repeat: no-repeat;
       width: auto;
-      height: 50vh;
+      height: 100vh;
   }
   
   @media screen and (max-width: 374px), 
@@ -215,6 +217,7 @@ export const BlogWrapper = styled.section `
       width: auto;
       height: 60vh;
   }
+
 
 `;
         

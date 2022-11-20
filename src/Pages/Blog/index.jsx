@@ -7,7 +7,7 @@ import {
 function Blog() {
   return (
     <>
-    <BlogTitle>Minha Coluna</BlogTitle>
+    <BlogTitle id='blog'>Minha Coluna</BlogTitle>
     <a  href="https://danielndourado.netlify.com" target="_blank" rel="noopener noreferrer" title="Visite meu blog, Informe-se sobre saúde">
       <BlogWrapper id='blogLink'/>
     </a>

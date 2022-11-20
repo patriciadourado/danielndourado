@@ -78,7 +78,7 @@ function Contact(){
   }
 
   return(
-    <ContactBox>  
+    <ContactBox id='contact'>  
       <ContactIntro>
         <Intro>
           <ContactTitle>Contato</ContactTitle>

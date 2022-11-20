@@ -168,7 +168,7 @@ export const IntroBox = styled.div`
   @media screen and (min-width: 375px), 
     screen and (min-height: 667px) {
       margin-bottom: 20rem;
-      height: 120vh;
+      height: 140vh;
   }
 
   @media screen and (max-width: 375px), 
