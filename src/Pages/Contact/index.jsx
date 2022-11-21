@@ -156,7 +156,7 @@ function Contact(){
               </FooterItem>
               <FooterItem>
                 <Link
-                  href="https://twitter.com/"
+                  href="https://twitch.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

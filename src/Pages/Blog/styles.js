@@ -100,14 +100,14 @@ export const BlogWrapper = styled.section `
   object-fit: cover;
   //opacity: 0.85;
   
-  &:hover{
+  /*&:hover{
     background-color: var(--color-white);
     opacity: 0.4;
 
     & > ${BlogButton} {
         opacity: 0.85;
     }
-  }
+  }*/
 
   @media(min-width: 1260px){
     margin-top: 10px;

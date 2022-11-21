@@ -209,6 +209,6 @@ export const ContactSubmit = styled.button`
   }
 
   &:hover{
-    background-color: var(--color-gold-two);
+    background-color: var(--color-yellow-two);
   }
 `;
